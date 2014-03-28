@@ -3,7 +3,7 @@ package org.stackx.debug;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
-public class ZLog {//
+public class ZLog {
     private static final String ANDROID_DEBUG_CLASS_NAME = "android.util.Log";
 
     private static StackTraceElement getCurrentStackTrace() {
